@@ -81,6 +81,7 @@ WSGI_APPLICATION = 'portfolio_2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# mysql is connected to my project
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
