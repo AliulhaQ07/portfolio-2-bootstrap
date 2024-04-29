@@ -1,0 +1,253 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALI ZIA PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    {# bootstrap icons cdn#}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    {# custom css files #}
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+
+
+</head>
+<body>
+
+{# NAVBAR  #}
+
+<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark ">
+    <div class="container-xxl">
+
+        <a class="navbar-brand" href="#"> <span class="text-white lead">ALI UL HAQ</span></a>
+
+        <button class="navbar-toggler btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{#HERO SECTION#}
+
+<section>
+    <div class="container-lg my-5 py-5 ">
+        {#pre#}
+        <div class="row justify-content-center align-items-center w-100">
+
+            <div class="col-12 col-md-6 text-start">
+                <h1>
+                    <div class="display-1">ALI UL HAQ</div>
+                    <div class="display-5">WEB DEVELOPER!</div>
+                </h1>
+
+                <!-- Row to wrap the buttons -->
+                <div class="row justify-content-start my-2">
+                    <div class="col-auto">
+                        <a class="btn btn-lg" href="https://www.linkedin.com/in/mraliulhaq/" target="_blank"><i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-auto">
+                        <a class="btn btn-lg" href="https://github.com/AliulhaQ07" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-auto">
+                        <a class="btn btn-lg" href="https://dribbble.com/alizia0711" target="_blank">
+                            <i class="bi bi-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="my-3">
+                    <a class="btn btn-sm btn-primary text-decoration-none" href="../../media/Ali%20Resume.pdf" download>
+                        Download Resume <span><i class="bi bi-download ms-1"></i></span>
+                    </a>
+                </div>
+
+            </div>
+
+            {#  2ND COLOUM  #}
+
+            <div class=" col-sm-6 d-none d-md-block ">
+                <img class="img-fluid border border-2 border-warning rounded-pill" src="media/33.jpg" alt="profile" width="450px" height="450px">
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{#MY SKILLS SECTION#}
+
+<section class="bg-light" style="margin-top: 100px">
+    <div class="container-lg my-5 py-5  ">
+        <div class="row justify-content-center align-items-center my-5 d-flex align-items-stretch ">
+
+            <div class="text-start mt-5">
+                <h1>
+                    <p class="display-5 lead">My Skills</p>
+                    <p class="display-4 fw-bold text-dark">My Expertise </p>
+                </h1>
+            </div>
+
+            {#  1ST COLOUM  #}
+
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-12 my-3  ">
+                <div class="card h-100 shadow-lg" style="width: 18rem;">
+                    <div class="card-body text-center py-5 ">
+                        <img src="media/webdev.png" height="80px" width="80px" alt="logo">
+                        <h5 class="card-title my-3 ">WEB DEV(HTML, CSS & JS)</h5>
+                        <p class="card-text my-2 text-start">Proficient in building user-friendly and responsive web pages using HTML, CSS, and JavaScript. </p>
+                        <p class="card-text my-2 text-start"> Expertise in creating seamless and efficient user interfaces for optimal user experiences.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            {#  2ND COLOUM  #}
+
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-12 my-3  ">
+                <div class="card h-100 shadow-lg" style="width: 18rem;">
+                    <div class="card-body text-center py-5  ">
+                        <img src="media/ui.png" height="80px" width="80px" alt="logo">
+                        <h5 class="card-title my-3 ">UI/UX Design</h5>
+                        <p class="card-text my-2 text-start">Skilled in designing intuitive and visually appealing user interfaces. </p>
+                        <p class="card-text my-2 text-start"> Experience using Figma for wireframing, prototyping, and design collaboration.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            {#  3RD COLOUM  #}
+
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-12  my-3 ">
+                <div class="card h-100 shadow-lg" style="width: 18rem;">
+                    <div class="card-body text-center py-5 ">
+                        <img src="media/bootstrap.png" height="80px" width="80px" alt="logo">
+                        <h5 class="card-title my-3">Bootstrap-5</h5>
+                        <p class="card-text my-2 text-start">Skilled in using the Bootstrap framework to efficiently develop web designs.</p>
+
+                        <p class="card-text my-2 text-start">Proficient in creating web designs that adapt seamlessly to different screen sizes and devices.</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            {#  4TH COLOUM  #}
+
+            <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-12 my-3 ">
+                <div class="card h-100 shadow " style="width: 18rem;">
+                    <div class="card-body text-center py-5 ">
+                        <img src="media/django.png" height="80px" width="80px" alt="logo">
+                        <h5 class="card-title my-3">Django</h5>
+                        <p class="card-text text-start my-2">Proficient in building web applications using the Django framework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{#  ABOUT-ME SECTION  #}
+
+<section>
+    <div class="container-lg">
+        <div class="row justify-content-around align-items-center my-5  align-items-stretch d-flex ">
+
+            <p class="display-1 fw-bold text-center mb-5">ABOUT ME <span class="text-top">👋</span></p>
+
+            {# COLOUM 1 #}
+            <div class="col-xxl-5 col-lg-5 col-md-8 col-sm-6 my-1 shadow-sm border rounded ">
+                <div class="h-100 p-4">
+                    <p class="display-5 fw-bold">Introduction</p>
+                    <p class="lead fw-normal">Hi, I'm Ali, a web developer from Lahore, Pakistan, with a fresh Bachelor's in Computer Science from the Institute of Management Sciences.
+
+                    <p class="lead fw-normal">My expertise includes Django, HTML, CSS, and JavaScript. I've
+                                              honed my skills at Next Inn Technologies, focusing on frontend development, and at Future Vision, where I designed intuitive user interfaces with Figma.</p>
+
+                    <p class="lead fw-normal"> My final year project involved developing a Campus Management System using Django, showcasing my ability to integrate backend and frontend technologies. I'm passionate about building engaging,
+                                               user-friendly websites and am always eager to tackle new challenges. Let's connect and create something amazing!</p>
+                </div>
+            </div>
+
+            {# 2ND COLOUM #}
+
+           <div class="col-xxl-5 col-lg-5 col-md-8 col-sm-6 my-1 shadow-sm border rounded">
+
+                <div class="h-100 p-4">
+                    <p class="h3 fw-bold">Personal info <span class="text-primary ms-2"><i class="bi bi-info-circle"></i></span></p>
+                    <ul class="py-3">
+                        <li class="h6 lead mb-3  "><span class="fw-normal">NAME:</span> ALI UL HAQ</li>
+                        <li class="h6 lead mb-3"><span class="fw-normal">PROFILE:</span> DJANGO(WEB DEVELOPER)</li>
+                        <li class="h6 lead mb-3"><span class="fw-normal">EMAIL:</span> MR.ALIULHAQ0711@GMAIL.COM</li>
+                        <li class="h6 lead"><span class="fw-normal">PHONE:</span> +92 316-7500934</li>
+                    </ul>
+
+                    <p class="h3 fw-bold">Education <span class="text-primary ms-2"><i class="bi bi-book"></i></span></p>
+                    <ul class="pt-3">
+                        <li class="h5">Bachelor's in Computer Science</li>
+                        <li class="list-unstyled mb-3">Institute of Management Sciences (Pakaims), 2024</li>
+
+                        <li class="h5">Intermediate</li>
+                        <li class="list-unstyled mb-3">Punjab Group of Colleges, 2018</li>
+
+                        <li class="h5">Metriculation</li>
+                        <li class="list-unstyled">Punjab Group of Colleges, 2016</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+
+
+{#FOOTER#}
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="240" />
+    <option name="FORMATTER_TAGS_ENABLED" value="false" />
+    <HTMLCodeStyleSettings>
+      <option name="HTML_ALIGN_TEXT" value="true" />
+    </HTMLCodeStyleSettings>
+    <codeStyleSettings language="JSON">
+      <option name="RIGHT_MARGIN" value="240" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
